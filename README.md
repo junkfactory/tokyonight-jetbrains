@@ -25,7 +25,7 @@ _On Your Jetbrains IDE_:
 - Open Settings/Preferences
 - Plugins
 - Marketplace
-- Search for "Tokyo Dark Theme"
+- Search for "Tokyo Night Dark Theme"
 - Install Plugin
 
 Copyright &copy; 2024-present [Junk F. Actory](https://github.com/junkfactory/tokyonight-jetbrains)
