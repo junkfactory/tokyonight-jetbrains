@@ -4,7 +4,14 @@
 
 ## [Unreleased]
 
+See GitHub [Releases](https://github.com/junkfactory/tokyonight-jetbrains/releases) for changes
+
 ### Added
+
+## 0.2.4
+
+- Changed ignored colors - thanks @ Richienb
+- Moved change logs to GitHub releases for absolute detailed view of changes
 
 ## 0.2.3
 
