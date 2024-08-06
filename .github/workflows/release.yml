@@ -15,6 +15,12 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      # Free GitHub Actions Environment Disk Space
+      - name: Maximize Build Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: false
+          large-packages: false
       # Check out current repository
       - name: Fetch Sources
         uses: actions/checkout@v4
@@ -49,3 +55,4 @@ jobs:
           PKG="$PROJECT_NAME-${VERSION:1}.zip"
           ls -l "$DIST_DIR"
           gh release create ${{ github.ref_name }} "$DIST_DIR/$PKG" --generate-notes
+
