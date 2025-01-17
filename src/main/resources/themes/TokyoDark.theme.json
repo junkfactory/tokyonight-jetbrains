@@ -69,25 +69,10 @@
     "Bookmark": {
       "iconBackground": "blue",
       "Mnemonic": {
-        "iconForeground": "fg",
-        "iconBackground": "hoverBackground",
-        "iconBorderColor": "blue"
-      },
-      "MnemonicAssigned": {
-        "foreground": "fg",
-        "background": "hoverBackground",
-        "borderColor": "magenta"
-      },
-      "MnemonicAvailable": {},
-      "MnemonicCurrent": {
-        "foreground": "fg",
-        "background": "hoverBackground",
-        "borderColor": "blue0"
+        "iconForeground": "fg"
       }
     },
     "Button": {
-      "arc": 8,
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaButtonBorder",
       "foreground": "fg",
       "startBorderColor": "hoverBackground",
       "endBorderColor": "hoverBackground",
@@ -95,7 +80,6 @@
       "endBackground": "hoverBackground",
       "focusedBorderColor": "blue0",
       "disabledBorderColor": "bgHi",
-      "minimumSize": "72,28",
       "default": {
         "foreground": "bg",
         "startBackground": "blue",
@@ -107,7 +91,6 @@
       }
     },
     "CheckBox": {
-      "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "textIconGap": 4
     },
@@ -122,21 +105,17 @@
         "disabledIconColor": "comment",
         "iconColor": "blue"
       },
-      "selectionBackground": "blue0",
-      "nonEditableBackground": "hoverBackground",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaComboBoxBorder",
-      "minimumSize": "49,28",
-      "padding": "1,9,1,6"
+      "selectionBackground": "selectionBackground",
+      "nonEditableBackground": "hoverBackground"
     },
     "ComboPopup.border": "1,1,1,1",
     "CompletionPopup": {
       "foreground": "fg",
-      "selectionBackground": "blue7",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
       "matchForeground": "orange"
     },
     "Component": {
-      "arc": 8,
       "arrowAreaWidth": "28",
       "focusColor": "hoverBackground",
       "borderColor": "bgHi",
@@ -157,18 +136,13 @@
       "inactiveUnderlineColor": "comment",
       "underlineColor": "blue"
     },
+    "EditorTabs": {
+      "underlineHeight.compact": 1,
+      "underlinedTabBackground": "hoverBackground"
+    },
     "Editor": {
       "background": "bgHi",
       "shortcutForeground": "blue"
-    },
-    "EditorTabs": {
-      "background": "bgHi",
-      "underlinedTabBackground": "hoverBackground",
-      "underlineColor": "blue",
-      "underlineArc": 4,
-      "underlineHeight": 4,
-      "hoverBackground": "hoverBackground",
-      "inactiveUnderlineColor": "blue"
     },
     "FileColor": {
       "Blue": "#7AA2F71a",
@@ -179,10 +153,7 @@
       "Violet": "#bb9af705"
     },
     "HelpTooltip": {
-      "verticalGap": 6
-    },
-    "Ide.Shadow": {
-      "borderInsets": "16,16,16,16"
+      "borderColor": "hoverBackground"
     },
     "Link": {
       "activeForeground": "blue",
@@ -192,11 +163,11 @@
     },
     "List": {
       "rowHeight": 24,
-      "border": "4,0,4,0",
       "Button": {
         "separatorInset": 4,
         "leftRightInset": 8
-      }
+      },
+      "selectionBackground": "selectionBackground"
     },
     "MainToolbar": {
       "Icon": {
@@ -222,9 +193,6 @@
         "informativeBackground": "bgHi",
         "informativeBorderColor": "magenta"
       }
-    },
-    "Notification.Shadow": {
-      "borderInsets": "5,5,5,5"
     },
     "PasswordField": {
       "background": "hoverBackground"
@@ -267,23 +235,16 @@
     },
     "Popup": {
       "borderWidth": 1,
-      "paintBorder": true,
       "Header": {
         "activeBackground": "hoverBackground",
         "inactiveBackground": "hoverBackground"
       },
       "Advertiser": {
-        "foreground": "dark5",
-        "fontSizeOffset": -1
+        "foreground": "dark5"
       }
     },
-    "PopupMenu": {
-      "background": "hoverBackground"
-    },
     "RadioButton": {
-      "borderInsets": "4,4,4,4",
-      "iconSize": 24,
-      "iconTextGap": 4
+      "iconSize": 24
     },
     "RadioButtonMenuItem": {
       "selectionBackground": "hoverBackground"
@@ -317,17 +278,10 @@
       "background": "bg"
     },
     "Spinner": {
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaSpinnerBorderNew",
       "minimumSize": "72,28"
     },
     "StatusBar": {
-      "borderColor": "bg",
-      "Breadcrumbs": {
-        "chevronInset": 0
-      },
-      "Widget": {
-        "hoverBackground": "hoverBackground"
-      }
+      "borderColor": "bg"
     },
     "TabbedPane": {
       "tabHeight": 40,
@@ -350,7 +304,6 @@
     },
     "TextField": {
       "background": "hoverBackground",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew",
       "minimumSize": "49,28"
     },
     "TitlePane": {
@@ -377,8 +330,7 @@
       "Header": {
         "background": "bg",
         "inactiveBackground": "bgHi",
-        "borderColor": "hoverBackground",
-        "font.size.offset": 0
+        "borderColor": "hoverBackground"
       },
       "HeaderTab": {
         "underlineColor": "magenta2",
@@ -390,17 +342,12 @@
       }
     },
     "Tree": {
-      "collapsedIcon": "/expui/general/chevronRight.svg",
-      "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
-      "expandedIcon": "/expui/general/chevronDown.svg",
-      "expandedSelectedIcon": "/expui/general/chevronDown.svg",
       "background": "bg",
       "modifiedItemForeground": "blue",
       "hoverBackground": "hoverBackground",
-      "selectionBackground": "blue0",
+      "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "rowHeight": 24,
-      "border": "4,12,4,12"
+      "rowHeight": 24
     },
     "ValidationTooltip": {
       "errorBackground": "bgHi",
