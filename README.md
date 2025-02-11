@@ -2,6 +2,9 @@
 
 # 🏙 Tokyo Dark
 
+**This repo has been moved to [junkfactory/tokyodark-jetbrains](https://github.com/junkfactory/tokyodark-jetbrains)**
+**New updates will be pushed there.**
+
 A dark Jetbrains theme ported from the Visual Studio Code
 [TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme.
 
